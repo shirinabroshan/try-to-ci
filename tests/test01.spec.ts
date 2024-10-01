@@ -17,6 +17,7 @@ test.describe('New Todo', () => {
     //blog
     await page.locator('#navbarSupportedContent > div > ul > li:nth-child(4) > a').click();
     await expect(page.locator('body > section > div > div:nth-child(1) > div > div > h2')).toBeVisible();
+    await expect(page.locator('body > section > div > div:nth-child(1) > div > div > h2')).toBeVisible();
 
   });
 
